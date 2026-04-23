@@ -39,3 +39,4 @@ submission.csv
 
 # Logs
 *.log
+.obsidian/
