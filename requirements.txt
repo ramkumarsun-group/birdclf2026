@@ -1,0 +1,8 @@
+torch>=2.2
+torchaudio
+timm>=0.9
+librosa>=0.10
+pandas
+numpy
+scikit-learn
+tqdm
