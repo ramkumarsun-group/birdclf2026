@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "model": "cnn14",
+
+  "data_dir": "/Users/ramkumarsundaram/Documents/pantanal-audio-classification/birdclef-2026-2",
+  "output_dir": "checkpoints_cnn14",
+
+  "num_folds": 5,
+  "fold": 0,
+
+  "epochs": 30,
+  "warmup_epochs": 2,
+  "batch_size": 32,
+  "num_workers": 2,
+
+  "lr": 1e-3,
+  "weight_decay": 1e-4,
+
+  "mixup_alpha": 0.4,
+  "focal_gamma": 2.0,
+
+  "noise_files": []
+}
